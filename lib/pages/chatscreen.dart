@@ -15,10 +15,34 @@ class _ChatScreenState extends State<ChatScreen> {
         children: <Widget>[
           SingleList(
             userImage: "https://m.cricbuzz.com/a/img/v1/192x192/i1/c170661/virat-kohli.jpg",
-            userName: "Philip",
+            userName: "Virat Kholi",
             userLastChat: "Please tell me your full name?",
-            userLastChatTime: "21:43 AM",
+            userLastChatTime: "21:43 PM",
             userLastUnseenChatCount: "20",
+          ),
+          Divider(
+            indent: 70,
+            endIndent: 10,
+            color: Colors.grey,
+          ),
+          SingleList(
+            userImage: "https://www.usnews.com/dims4/USNEWS/f45ea7c/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2Fd1%2Fd8%2F8501ba714a21aed9a7327e02ade1%2F180515-10thingselonmusk-editorial.jpg",
+            userName: "Elon Musk",
+            userLastChat: "I want to contact you.",
+            userLastChatTime: "23:43 PM",
+            userLastUnseenChatCount: "2",
+          ),
+          Divider(
+            indent: 70,
+            endIndent: 10,
+            color: Colors.grey,
+          ),
+          SingleList(
+            userImage: "https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X.jpg",
+            userName: "Bill Gates",
+            userLastChat: "You are so talented.",
+            userLastChatTime: "00:40 AM",
+            userLastUnseenChatCount: "4",
           ),
           Divider(
             indent: 70,

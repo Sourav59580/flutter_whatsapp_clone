@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 //my pages import
 import 'package:flutter_whatsapp/pages/chatscreen.dart';
+import 'package:flutter_whatsapp/pages/callsscreen.dart';
 
 void main(){
   runApp(MaterialApp(
@@ -45,7 +46,7 @@ void main(){
               child: Text("Status"),
             ),
             Container(
-              child: Text("Calls"),
+              child: CallScreen(),
             ),
           ],
         ),
